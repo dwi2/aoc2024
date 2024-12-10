@@ -1,0 +1,11 @@
+{
+  "name": "aoc2024",
+  "version": "1.0.0",
+  "description": "https://adventofcode.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC"
+}
