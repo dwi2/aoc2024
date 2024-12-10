@@ -41,6 +41,7 @@ module.exports = {
       } else {
         // another try
         for (let i = 0; i < report.length; i += 1) {
+          // Array.prototype.toSpliced is supported by node 20+
           const unsafetyWithProblemDampener = countUnsafety(report.toSpliced(i, 1));
           if (unsafetyWithProblemDampener < 1) {
             numberOfSafeReportsWithProblemDampener += 1;
